@@ -3,6 +3,8 @@
 /* 5 same style elements*/
   body {
         background-color:  lightyellow;
+	
+  nav a{
 	text-align: center;
 
 }
@@ -23,14 +25,14 @@
 }
   h3 {
       color: red;
-      text-align: center;
+      text-align: left;
       font-family: Cambria,Arial;
       font-size: 18px;
       font-style: italic;
 }
 
   p {
-    text-align: center;
+    text-align: left;
     font-family: Cambria,Arial;
     font-size: 15px;
     font-style: normal;
@@ -38,14 +40,14 @@
 
 }
   h2 {
-      text-align: center;
+      text-align: left;
       font-family: Cambria,Arial;
       font-size: 25px;
       font-style: normal;
       color: red;
 }
   strong{
-        text-align: center;
+        text-align: left;
         font-family: Cambria,Arial;
         font-size: 20px;
         font-style: normal;
@@ -54,7 +56,7 @@
   ul {
       list-style-type: rectangular;
       color: blue;
-      text-align: center;
+      text-align: left;
   .nav ul {
       	   text-align: center;
 
@@ -65,16 +67,7 @@
   embed{
 	     padding: 30px 120px 30px 650px;
 }
-  .nav {
-        border: 1px solid #ccc;
-        border-width: 1px 0;
-        text-align: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        color: red;
 
-}
 footer{
   clear: both;
   position: fixed;
