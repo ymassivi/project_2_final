@@ -6,9 +6,6 @@
 
 }
 
-  nav a {
-        text-align: center;
-  }
   h1 {
       color: red;
       text-align: center;
@@ -57,9 +54,10 @@
       list-style-type: rectangular;
       color: blue;
       text-align: center;
-  .nav ul {
-      	   text-align: center;
-
+  nav ul {
+      	 list-style-type: rectangular;
+	 color: blue;
+ 	 text-align: center;
 }
   img {
 	     padding: 30px 60px 90px 120px;
@@ -67,14 +65,12 @@
   embed{
 	     padding: 30px 120px 30px 650px;
 }
-  .nav {
-        border: 1px solid #ccc;
-        border-width: 1px 0;
-        text-align: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        color: red;
+  nav{
+  border: solid navy;
+  margin: 0;
+  text-align: center;
+  font-family: 'Nanum Gothic',helvetica, sans-serif;
+  background-color: lightblue;
 
 }
 footer{
@@ -85,5 +81,6 @@ footer{
   line-height: 20px;
   bottom: 0px;
   font-family: Arial;
-
+  
 }
+
