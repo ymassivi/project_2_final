@@ -3,33 +3,30 @@
 /* 5 same style elements*/
   body {
         background-color:  lightyellow;
-
+ 
+  h1, h2, h3, h4{
+  font-family: Cambria,Arial;
+  text-align:center;
 }
 
   h1 {
       color: red;
-      text-align: center;
-      font-family: Cambria,Arial;
       font-size: 30px;
       font-style: italic;
 }
   h4 {
       color: red;
-      text-align: center;
-      font-family: Cambria,Arial;
       font-size: 10px;
       font-style: italic;
 }
   h3 {
       color: red;
-      text-align: left;
-      font-family: Cambria,Arial;
       font-size: 18px;
       font-style: italic;
 }
 
   p {
-    text-align: left;
+    text-align: center;
     font-family: Cambria,Arial;
     font-size: 15px;
     font-style: normal;
@@ -37,14 +34,12 @@
 
 }
   h2 {
-      text-align: left;
-      font-family: Cambria,Arial;
       font-size: 25px;
       font-style: normal;
       color: red;
 }
   strong{
-        text-align: left;
+        text-align: center;
         font-family: Cambria,Arial;
         font-size: 20px;
         font-style: normal;
@@ -54,6 +49,7 @@
       list-style-type: rectangular;
       color: blue;
       text-align: center;
+	  
   nav ul {
       	 list-style-type: rectangular;
 	 color: blue;
@@ -69,7 +65,7 @@
   border: solid navy;
   margin: 0;
   text-align: center;
-  font-family: 'Nanum Gothic',helvetica, sans-serif;
+  font-family:  Cambria,Arial;
   background-color: lightblue;
 nav li {
        display: inline;
